@@ -144,6 +144,54 @@ Classes Starts
   margin-left: 3em;
 }
 
+.adImg {
+  height: 500px;
+  background-color: #6F6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adWriteup {
+  margin: auto;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.adTitle {
+  width: 905px;
+  height: 90px;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: #6F6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adCopy {
+  height: 200px;
+  width: 1500px;
+  margin: auto;
+  background-color: #CECECE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.halfAdImg {
+  width: 960px;
+  height: 500px;
+  background-color: #CECECE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*
 Classes Ends
 */
@@ -457,6 +505,14 @@ IDs Starts
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#adImgx2 {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
 }
 
 /*
