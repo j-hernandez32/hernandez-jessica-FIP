@@ -1,0 +1,370 @@
+@charset "UTF-8";
+
+/*
+Project Name: Midterm Prep - Scaffolds
+Author: Jessica Hernandez
+*/
+
+/*
+Accessibility Starts
+*/
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+
+/*
+Accessibility Ends
+*/
+
+/*
+Table of Contents:
+        01. Fonts
+        02. General Styles
+        03. Classes
+        04. IDs
+*/
+
+/*
+Fonts Start
+*/
+
+/*
+Fonts End
+*/
+
+/*
+General Styles Starts
+*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+p {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  margin: 0;
+}
+
+/*
+Classes Starts
+*/
+
+.hidden {
+  display: none;
+}
+
+.aboutSection {
+  width: 441px;
+  margin: auto;
+  height: 1000px;
+  background-color: #CECECE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutImg {
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  background-color: #6F6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutTitle {
+  width: 400px;
+  height: 48px;
+  background-color: #6F6F6F;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutCopy {
+  width: 400px;
+  height: 472px;
+  background-color: #6F6F6F;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+Classes Ends
+*/
+
+/*
+IDs Starts
+*/
+
+#siteContainer {
+  margin: 0 auto;
+  width: auto;
+}
+
+#mainHeader {
+  height: 150px;
+  overflow: hidden;
+  background-color: #959595;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  width: 265px;
+  height: 100px;
+  background-color: #6F6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mainNav {
+  height: 45px;
+  width: auto;
+  background-color: #CECECE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#indexHero {
+  height: 500px;
+  background-color: #6F6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutPrev {
+  height: 500px;
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+#abPrevImg {
+  float: left;
+  background-color: #6F6F6F;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#abPrevTxt {
+  float: right;
+  width: 949px;
+  height: 430px;
+  margin-left: 40px;
+  background-color: #6F6F6F;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#blogMerch {
+  height: 550px;
+  background-color: #959595;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+#indexBlog {
+  width: 753px;
+  height: 500px;
+  background-color: #CECECE;
+  float: left;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#indexMerch {
+  width: 753px;
+  height: 500px;
+  background-color: #CECECE;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#disclaimer {
+  height: 80px;
+  background-color: #CECECE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+#followUs {
+  height: 161px;
+  width: 579px;
+  margin: auto;
+  display: flex;
+  background-color: #959595;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+#mainFooter {
+  height: 195px;
+  background-color: #959595;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footerLogo {
+  width: 265px;
+  height: 100px;
+  background-color: #6F6F6F;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+#footerLinks {
+  width: 1035px;
+  height: 36px;
+  background-color: #6F6F6F;
+  margin-right: 70px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#copyright {
+  height: 50px;
+  background-color: #CECECE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutHero {
+  height: 500px;
+  background-color: #6F6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+#about {
+  height: 1000px;
+  margin: auto;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#ourValues {
+  height: 450px;
+  margin-bottom: 70px;
+  background-color: #CECECE;
+  display: flex;
+  align-items: center;
+}
+
+#valueImg {
+  height: 400px;
+  width: 700px;
+  margin: auto;
+  background-color: #6F6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#valueText {
+  width: 700px;
+  height: 400px;
+  margin: auto;
+  background-color: #6F6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#brandVideo {
+  height: 770px;
+  width: 1165px;
+  margin: auto;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#videoTitle {
+  height: 75px;
+  width: 500px;
+  background-color: #CECECE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#videoClip {
+  height: 655px;
+  width: 1165px;
+  background-color: #6F6F6F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+IDs Ends
+*/
