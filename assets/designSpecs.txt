@@ -9,13 +9,16 @@ Table of Contents
 	04. Footer
 	05. Index
 	06. About
+	07. Products
+	08. Advertisements
+	09. Contact
 
 -- BEGIN BRANDING --
 
 - fonts -
-logo: 
-	arial black, bolded & italicized
-web: 
+headers: 
+	Arial Black
+body: 
 	Neutraface2text-Demi
 	Neutraface2text-Book
 	Neutraface2text-Bold
@@ -30,7 +33,6 @@ color: xxxxxx
 	logo:
 size: 265px x 100px
 position: centered
-margin top & bottom: 25px
 
 -- END HEADER --
 
@@ -81,7 +83,7 @@ position: centered
 -- BEGIN INDEX --
 
 - hero image -
-height: 550px
+height: 500px
 margin bottom: 70px
 - section 1 -
 	background:
@@ -89,12 +91,9 @@ height: 500px
 color: xxxxx
 	image:
 size: 500px x 500px
-margin left: 160px
 	title:
-font size: 40px bold
+font size: 40px arial bold
 color: xxxxxx
-margin left: 40px
-margin top: 45px
 margin bottom: 55px
 	copy:
 font size: 25px regular
@@ -177,7 +176,7 @@ transformation: xxxxxx
 
 - section 1 -
 	image:
-height: 550px
+height: 500px
 	title:
 font size: 75px bold
 font kerning: 75px
@@ -186,57 +185,53 @@ margin right: 160px
 - section 2 -
 margin top: 70px
 margin bottom: 70px
-container size: 1599px x 1207px
+container size: 1599px x 960px
 ----- royal grolsch
 position: left
 	image:
-size: 440px x 500px
+size: 400px x 400px
 	title:
-font size: 50px bold
+font size: 40px bold
 line height: 50px
 color: xxxxxx
 	copy:
 font size: 25px regular
-line height: 40px
+line height: 25px
 align: left
 ----- asahi group
 position: center
-margin right: 140px
-margin left: 140px
 	image:
-size: 440px x 500px
+size: 400px x 400px
 	title:
-font size: 50px bold
+font size: 40px bold
 line height: 50px
 color: xxxxxx
 	copy:
 font size: 25px regular
-line height: 40px
+line height: 25px
 align: left
 ----- de klok dranken
 position: right
 	image:
-size: 440px x 500px
+size: 400px x 400px
 	title:
-font size: 50px bold
+font size: 40px bold
 line height: 50px
 color: xxxxxx
 	copy:
 font size: 25px regular
-line height: 40px
+line height: 25px
 align: left
 - section 3 -
 	background:
-height: 550px
+height: 450px
 color: xxxxxx
 	image:
-size: 753px x 500px
-margin left: 160px
+size: 700px x 400px
+align: left
 	title:
 font size: 75px bold
-font kerning: 75px
 color: xxxxxx
-margin top: 165px
 margin left: 45px
 margin bottom: 35px
 	copy:
@@ -251,8 +246,148 @@ container size: 1165px x 770px
 position: center
 	title:
 font size: 75px bold
-font kerning: 75px
 color: xxxxxx
 	video:
 size: 1165px x 671px
+
 -- END ABOUT --
+
+-- BEGIN PRODUCTS --
+
+- section 1 -
+	image:
+height: 500px
+	title:
+font size: 75px bold
+font kerning: 75px
+color: xxxxxx
+margin left: 160px
+- section 2 -
+container width: 1240px
+container height: 1584px
+margin top: 70px
+margin bottom: 70px
+	title:
+font size: 75px bold
+color: xxxxxx
+margin bottom: 20px
+	slogan:
+font size: 45px regular
+color: xxxxxx
+margin bottom: 40px
+	image:
+width: 925px
+height: 1050px
+interactions: on hover of each section of svg, pop up overlays will appear with info.
+margin bottom: 40px
+- section 3 -
+container width: 1920px
+container height: 875px
+margin bottom: 70px
+	title:
+height: 110px
+background color: xxxxxx
+font size: 75px bold
+	images:
+size: 500px x 700px
+interactions: on hover, display flavour details.
+
+-- END PRODUCTS --
+
+-- BEGIN ADVERTISEMENTS --
+
+- section 1 -
+	image:
+height: 500px
+- section 2 -
+container height: 340px
+container width: 1600px
+margin top: 70px
+margin bottom: 70px
+	title:
+font size: 75px bold
+color: xxxxxx
+margin bottom: 50px
+	copy:
+font size: 25px regular
+color: xxxxxx
+line height: 40px
+- section 3 -
+	image:
+height: 500px
+- section 4 -
+container height: 340px
+container width: 1600px
+margin top: 70px
+margin bottom: 70px
+	title:
+font size: 75px bold
+color: xxxxxx
+margin bottom: 50px
+	copy:
+font size: 25px regular
+color: xxxxxx
+line height: 40px
+- section 6 -
+	image:
+height: 500px
+- section 7 -
+container height: 500px
+margin bottom: 70px
+	images:
+height: 500px
+width: 960px
+
+-- END ADVERTISEMENTS --
+
+-- BEGIN CONTACT --
+
+- section 1 -
+container height: 1354px
+container width: 1092px
+margin top: 70px
+margin bottom: 70px
+	title:
+font size: 75px bold
+line height: 90px
+color: xxxxxx
+margin bottom: 50px
+	form:
+field font size: 35px bold italic
+field space height: 60px
+stroke size: 2px
+stroke color: xxxxxx
+space between fields: 30px
+	button background:
+margin top: 50px
+height: 80px
+width: 330px
+color: xxxxxx
+	button text:
+font size: 35px bold
+font color: xxxxxx
+- section 2 -
+	background:
+height: 80px
+color: xxxxxx
+	copy:
+font size: 25px regular
+color: xxxxxx
+- section 3 -
+	background:
+height: 160px
+margin top: 70px
+margin bottom: 70px
+color: xxxxxx
+	title:
+font size: 40px bold
+font kerning: 75px
+line height: 50px
+color: xxxxxx
+	social icons:
+size: 68px x 68px
+color: xxxxxx
+margin between: 60px
+transformation: xxxxxx
+
+-- END CONTACT --
