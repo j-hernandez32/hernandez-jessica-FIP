@@ -1,0 +1,33 @@
+HOMEWORK BRIEF
+
+-- assignment description --
+
+Each individual or team is responsible for creating their own website scaffold consisting of 
+Design file(s), HTML and CSS files. The scaffold will be based off of the wireframes selected from 
+an individual or each partner.
+
+-- assignment requirements --
+
+Each individual or team is responsible for creating the following: A finished/finalized design file 
+based off of 2 wireframes, Boxed out Design File or layer for each page, HTML and CSS Box 
+Design and a text file with box info i.e. measurements, font info, etc. 
+
+The pages must consist of valid HTML5 and CSS3. The pages must use semantic tagging and 
+have a proper document outline. 
+
+-- web page --
+
+- 2 pages 
+- Semantic HTML 5 tagging 
+- Link to CSS file, JS File and Reset 
+- Valid HTML5 & CSS 
+- Proper Document Outline
+
+-- folder contents --
+
+- 2 HTML pages
+- images folder
+- css folder
+- js folder
+- assets folder (wireframe, design brief, design file)
+- includes folder
