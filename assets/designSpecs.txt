@@ -1,0 +1,258 @@
+Design Specifications
+Crest x Grolsch Website
+Jessica Hernandez
+
+Table of Contents
+	01. Branding
+	02. Header
+	03. Navigation
+	04. Footer
+	05. Index
+	06. About
+
+-- BEGIN BRANDING --
+
+- fonts -
+logo: 
+	arial black, bolded & italicized
+web: 
+	Neutraface2text-Demi
+	Neutraface2text-Book
+	Neutraface2text-Bold
+
+-- END BRANDING --
+
+-- BEGIN HEADER --
+
+	background:
+height: 150px
+color: xxxxxx
+	logo:
+size: 265px x 100px
+position: centered
+margin top & bottom: 25px
+
+-- END HEADER --
+
+-- BEGIN NAVIGATION --
+
+	background:
+height: 45px
+color: xxxxxx
+	links:
+container width: 1095px x 32px
+font size: 30px bold
+font kerning: 75px
+positioning: justified
+color: xxxxxx
+transformation: xxxxxx
+links: home, about, products, advertisements, contact
+
+-- END NAVIGATION --
+
+-- BEGIN FOOTER --
+
+- links section -
+	background:
+height: 195px
+color: xxxxxx
+	logo:
+size: 265px x 100px
+margin left: 160px
+	links:
+container width: 1035px x 36px
+font size: 30px bold
+font kerning: 75px
+positioning: justified
+color: xxxxxx
+transformation: xxxxxx
+links: faq, terms & conditions, privacy policy, sitemap
+- copyright section -
+	background:
+height: 100px
+color: xxxxxx
+	copy:
+font size: 25px regular
+position: centered
+
+-- END FOOTER--
+
+
+-- BEGIN INDEX --
+
+- hero image -
+height: 550px
+margin bottom: 70px
+- section 1 -
+	background:
+height: 500px
+color: xxxxx
+	image:
+size: 500px x 500px
+margin left: 160px
+	title:
+font size: 40px bold
+color: xxxxxx
+margin left: 40px
+margin top: 45px
+margin bottom: 55px
+	copy:
+font size: 25px regular
+line height: 50px
+align: left
+color: xxxxxx
+	button:
+size: 220px x 75px
+background color: xxxxxx
+text: learn more (link to about.html)
+font size: 35px bold underlined italicized
+text color: xxxxxx
+transformation: xxxxxx
+- section 2 -
+	background:
+margin top: 70px
+height: 550px
+margin bottom: 70px
+----- blog section
+	image:
+size: 370px x 500px
+margin left: 160px
+	title:
+font size: 75px bold
+font kerning: 75px
+color: xxxxxx
+animation: xxxxxx
+	copy:
+font size: 25px regular
+line height: 25px
+color: xxxxxx
+	link:
+font size: 35px bold underlined italicized
+color: xxxxxx
+transformation: xxxxxx
+----- merch section
+	image:
+size: 370px x 500px
+margin right: 545px
+	title:
+font size: 75px bold
+font kerning: 75px
+color: xxxxxx
+animation: xxxxxx
+	copy:
+font size: 25px regular
+line height: 25px
+color: xxxxxx
+	link:
+font size: 35px bold underlined italicized
+color: xxxxxx
+transformation: xxxxxx
+- section 3 -
+	background:
+height: 80px
+color: xxxxxx
+	copy:
+font size: 25px regular
+color: xxxxxx
+- section 4 -
+	background:
+height: 160px
+margin top: 70px
+margin bottom: 70px
+color: xxxxxx
+	title:
+font size: 40px bold
+font kerning: 75px
+line height: 50px
+color: xxxxxx
+	social icons:
+size: 68px x 68px
+color: xxxxxx
+margin between: 60px
+transformation: xxxxxx
+
+-- END INDEX --
+
+-- BEGIN ABOUT --
+
+- section 1 -
+	image:
+height: 550px
+	title:
+font size: 75px bold
+font kerning: 75px
+color: xxxxxx
+margin right: 160px
+- section 2 -
+margin top: 70px
+margin bottom: 70px
+container size: 1599px x 1207px
+----- royal grolsch
+position: left
+	image:
+size: 440px x 500px
+	title:
+font size: 50px bold
+line height: 50px
+color: xxxxxx
+	copy:
+font size: 25px regular
+line height: 40px
+align: left
+----- asahi group
+position: center
+margin right: 140px
+margin left: 140px
+	image:
+size: 440px x 500px
+	title:
+font size: 50px bold
+line height: 50px
+color: xxxxxx
+	copy:
+font size: 25px regular
+line height: 40px
+align: left
+----- de klok dranken
+position: right
+	image:
+size: 440px x 500px
+	title:
+font size: 50px bold
+line height: 50px
+color: xxxxxx
+	copy:
+font size: 25px regular
+line height: 40px
+align: left
+- section 3 -
+	background:
+height: 550px
+color: xxxxxx
+	image:
+size: 753px x 500px
+margin left: 160px
+	title:
+font size: 75px bold
+font kerning: 75px
+color: xxxxxx
+margin top: 165px
+margin left: 45px
+margin bottom: 35px
+	copy:
+font size: 25px regular
+line height: 40px
+color: xxxxxx
+margin left: 45px
+- section 4 -
+margin top: 70px
+margin bottom: 70px
+container size: 1165px x 770px
+position: center
+	title:
+font size: 75px bold
+font kerning: 75px
+color: xxxxxx
+	video:
+size: 1165px x 671px
+-- END ABOUT --
