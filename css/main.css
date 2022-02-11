@@ -123,6 +123,27 @@ Classes Starts
   justify-content: center;
 }
 
+.flavourOption {
+  width: 17em;
+  height: 30em;
+  background-color: #6F6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3em;
+}
+
+.flavourOptionFirst {
+  width: 17em;
+  height: 30em;
+  background-color: #6F6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
 /*
 Classes Ends
 */
@@ -363,6 +384,79 @@ IDs Starts
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#productsHero {
+  height: 500px;
+  background-color: #6F6F6F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+#pilsnerMouthwash {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+#mouthwashTitle {
+  height: 75px;
+  width: 1240px;
+  background-color: #CECECE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#mouthwashSlogan {
+  height: 45px;
+  width: 630px;
+  background-color: #CECECE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#mainProdImg {
+  width: 925px;
+  height: 1050px;
+  background-color: #6F6F6F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#mainProdDesc {
+  width: 925px;
+  height: 315px;
+  background-color: #CECECE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#flavourTitle {
+  height: 110px;
+  background-color: #CECECE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#flavourAssort {
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*
