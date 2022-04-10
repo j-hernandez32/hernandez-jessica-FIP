@@ -6,6 +6,27 @@ Author: Jessica Hernandez
 */
 
 /*
+Fonts Starts
+*/
+
+@font-face {
+    font-family: 'Neutraface';
+    src: url('../fonts/Neutraface2Text-Book.woff2') format('woff2'),
+        url('../fonts/Neutraface2Text-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arial_blackregular';
+    src: url('../fonts/arialblack-webfont.woff2') format('woff2'),
+         url('../fonts/arialblack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
 Accessibility Starts
 */
 
@@ -63,14 +84,16 @@ General Styles Starts
 */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Neutraface", Helvetica, sans-serif;
   font-size: 25px;
   color: #fff;
 }
 
 p {
+  font-family: "Neutraface", Helvetica, sans-serif;
+  color: #000000;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 35px;
   text-align: center;
   margin: 0;
 }
@@ -192,6 +215,14 @@ Classes Starts
   justify-content: center;
 }
 
+.title {
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  font-size: 2em;
+  align-self: left;
+  color: #1B3D78;
+  padding-bottom: 50px;
+}
+
 /*
 Classes Ends
 */
@@ -206,34 +237,47 @@ IDs Starts
 }
 
 #mainHeader {
-  height: 150px;
-  overflow: hidden;
-  background-color: #959595;
+  width: auto;
+  height: auto;
   display: flex;
-  align-items: center;
+  position: relative;
+  align-content: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 #logo {
   width: 265px;
   height: 100px;
-  background-color: #6F6F6F;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  align-self: center;
+}
+
+#logo img {
+  width: 265px;
+  height: auto;
 }
 
 #mainNav {
   height: 45px;
   width: auto;
-  background-color: #CECECE;
+  background-color: #0084C9;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+#mainNav li {
+  display: inline;
+  justify-content: space-between;
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  padding: 15px;
+}
+
 #indexHero {
   height: 500px;
+  width: auto;
+  overflow: hidden;
   background-color: #6F6F6F;
   display: flex;
   align-items: center;
@@ -251,7 +295,6 @@ IDs Starts
 
 #abPrevImg {
   float: left;
-  background-color: #6F6F6F;
   width: 500px;
   height: 500px;
   display: flex;
@@ -261,19 +304,19 @@ IDs Starts
 
 #abPrevTxt {
   float: right;
+  flex-direction: column;
   width: 949px;
   height: 430px;
   margin-left: 40px;
-  background-color: #6F6F6F;
   color: #fff;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
 }
 
 #blogMerch {
   height: 550px;
-  background-color: #959595;
+  background-color: #0084C9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -283,31 +326,120 @@ IDs Starts
 #indexBlog {
   width: 753px;
   height: 500px;
-  background-color: #CECECE;
   float: left;
   margin-right: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+#blogInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+#blogTitle {
+  margin-left: -78px;
+  margin-bottom: 10px;
+}
+
+#blogTitle p {
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  font-size: 2em;
+  color: #fff;
+  text-align: left;
+  letter-spacing: 5px;
+}
+
+#blogText {
+  margin-left: -78px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#blogText p {
+  font-family: "Neutraface", Helvetica, sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+#blogBtn {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#blogBtn a {
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  color: #fff;
+
 }
 
 #indexMerch {
   width: 753px;
   height: 500px;
-  background-color: #CECECE;
-  float: left;
+  float: right;
+  margin-left: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+#merchInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+#merchTitle {
+  margin-left: -78px;
+  margin-bottom: 10px;
+}
+
+#merchTitle p {
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  font-size: 2em;
+  color: #fff;
+  text-align: left;
+  letter-spacing: 5px;
+}
+
+#merchText {
+  margin-left: -78px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#merchText p {
+  font-family: "Neutraface", Helvetica, sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+#merchBtn {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#merchBtn a {
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  color: #fff;
+
 }
 
 #disclaimer {
   height: 80px;
-  background-color: #CECECE;
+  background-color: #1B3D78;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 70px;
+}
+
+#disclaimer p {
+  font-size: 0.75em;
+  color: #fff;
+  line-height: 25px;
 }
 
 #followUs {
@@ -315,24 +447,38 @@ IDs Starts
   width: 579px;
   margin: auto;
   display: flex;
-  background-color: #959595;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 70px;
 }
 
+#followUs p {
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  padding-bottom: 30px;
+}
+
+#followUs div img {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 #mainFooter {
-  height: 195px;
-  background-color: #959595;
+  width: auto;
+  height: auto;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #footerLogo {
   width: 265px;
   height: 100px;
-  background-color: #6F6F6F;
+  position: absolute;
   float: left;
   display: flex;
   align-items: center;
@@ -340,23 +486,42 @@ IDs Starts
   margin-left: 70px;
 }
 
+#footerLogo img {
+  width: 265px;
+  height: auto;
+  /* margin-bottom: 20px; */
+}
+
 #footerLinks {
   width: 1035px;
   height: 36px;
-  background-color: #6F6F6F;
-  margin-right: 70px;
+  position: absolute;
+  margin-left: 625px;
   float: right;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+#footerLinks li {
+  display: inline;
+  justify-content: space-between;
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  padding: 15px;
+}
+
 #copyright {
   height: 50px;
-  background-color: #CECECE;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#copyright p {
+  font-family: "Neutraface", Helvetica, sans-serif;
+  font-size: 0.75em;
+  color: #BC2929;
 }
 
 #aboutHero {
@@ -545,14 +710,18 @@ IDs Starts
   justify-content: center;
 }
 
-#contactButton {
-  height: 80px;
-  width: 330px;
-  background-color: #6F6F6F;
+#button {
+  height: 75px;
+  width: 220px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  background-color: #1B3D78;
   display: flex;
-  align-self: flex-start;
+  align-self: center;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 
 /*
