@@ -25,6 +25,14 @@ Website should be compatible with most web browsers. Any browsers not supporting
 Author:
 - Jessica Hernandez Botero
 
+## Credits
+
+Tutorials Used:
+- Contact Form by Jack Delaney
+https://paperform.co/blog/html-contact-form/
+
+*All tutorials were significantly tweaked to fit the project.
+
 ## License
 
 MIT
