@@ -28,8 +28,12 @@ Author:
 ## Credits
 
 Tutorials Used:
+
 - Contact Form by Jack Delaney
 https://paperform.co/blog/html-contact-form/
+
+- Page Transition by Tyler Potts
+https://www.youtube.com/watch?v=ckJ7gdIeebc
 
 *All tutorials were significantly tweaked to fit the project.
 
