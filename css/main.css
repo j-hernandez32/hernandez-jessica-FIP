@@ -167,52 +167,12 @@ Classes Starts
   margin-left: 3em;
 }
 
-.adImg {
-  height: 500px;
-  background-color: #6F6F6F;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.adWriteup {
-  margin: auto;
-  margin-bottom: 70px;
-  margin-top: 70px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.adTitle {
-  width: 905px;
-  height: 90px;
-  margin: auto;
-  margin-bottom: 50px;
-  background-color: #6F6F6F;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.adCopy {
-  height: 200px;
-  width: 1500px;
-  margin: auto;
-  background-color: #CECECE;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .halfAdImg {
-  width: 960px;
-  height: 500px;
-  background-color: #CECECE;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 50%;
+  height: auto;
+  display: inline;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .title {
@@ -735,8 +695,45 @@ IDs Starts
   justify-content: space-between;
 }
 
+#adsHero {
+  height: 850px;
+  width: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+#adTitle p {
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  font-size: 2.5em;
+  color: #1B3D78;
+  letter-spacing: 10px;
+}
+
+#adsProdDesc {
+  width: 925px;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#adsBanner {
+  height: 850px;
+  width: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #adImgx2 {
-  height: 500px;
+  height: 1100px;
+  width: 100%;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
