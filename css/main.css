@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*
-Project Name: Midterm Prep - Scaffolds
+Project Name: FIP - Grolsch x Crest
 Author: Jessica Hernandez
 */
 
@@ -87,6 +87,7 @@ body {
   font-family: "Neutraface", Helvetica, sans-serif;
   font-size: 25px;
   color: #fff;
+  cursor: crosshair;
 }
 
 p {
@@ -266,6 +267,19 @@ IDs Starts
 #mainNav li a {
   color: #fff;
   text-decoration: none;
+}
+
+#mainNav li a:hover {
+  color: #BC2929;
+  letter-spacing: 5px;
+  transition-duration: 1s;
+}
+
+#activeNav {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #0084C9;
+  background-color: #fff;
 }
 
 #indexHero {
