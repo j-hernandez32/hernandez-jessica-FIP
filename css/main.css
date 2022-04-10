@@ -274,6 +274,11 @@ IDs Starts
   padding: 15px;
 }
 
+#mainNav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
 #indexHero {
   height: 500px;
   width: auto;
