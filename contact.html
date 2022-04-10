@@ -12,57 +12,104 @@
   <!-- begin site container -->
   <div id="siteContainer">
     <!-- begin header -->
-    <header id="mainHeader">
-      <h1 class="hidden">Grolsch Premium Pilsner - Contact</h1>
-      <div id="logo">
-        <p>Logo</p>
+    <header>
+      <h1 class="hidden">Grolsch Premium Pilsner - Home</h1>
+      <div id="mainHeader">
+      <img src="images/headerBackground.png" alt="Blue background with gradient dots.">
+        <div id="logo">
+          <img src="images/grolschLogo.png" alt="Grolsch logo.">
+        </div>
       </div>
     </header>
     <!-- end header -->
     <!-- begin navigation -->
     <nav id="mainNav">
       <h2 class="hidden">Main Navigation</h2>
-      <p>Navigation</p>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="advertisements.html">ADS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
     </nav>
     <!-- end navigation-->
     <!-- begin contact form -->
     <section id="contactForm">
       <h2 class="hidden">Contact Form</h2>
       <div id="contactTitle">
-        <p>Contact Form Title</p>
+        <p>HOW CAN WE HELP YOU?</p>
       </div>
-      <div id="contactFields">
-        <p>Contact Form<p>
-      </div>
-      <div id="contactButton">
-        <p>Submit</p>
-      </div>
+      <form method="post" action="contact-submissions.php" id="contactForm">
+        <label for="Topic" class="fieldTitle">TOPIC<span class="req">*</span></label>
+        <div class="formInput">
+            <input class="formInput" type="text" id="Topic" name="Topic" required>
+        </div>
+        <label for="firstName" class="fieldTitle">FIRST NAME<span class="req">*</span></label>
+        <div class="formInput">
+            <input class="formInput" type="text" id="firstName" name="firstName" required>
+        </div>
+        <label for="lastName" class="fieldTitle">LAST NAME</label>
+        <div class="formInput">
+            <input class="formInput" type="text" id="lastName" name="lastName">
+        </div>
+        <label for="Email" class="fieldTitle">EMAIL ADDRESS<span class="req">*</span></label>
+        <div class="formInput">
+            <input class="formInput" type="text" id="Email" name="Email" required>
+        </div>
+        <label for="location" class="fieldTitle">CITY & PROVINCE</label>
+        <div class="formInput">
+            <input class="formInput" type="text" id="location" name="location">
+        </div>
+        <label for="Message" class="fieldTitle">COMMENTS<span class="req">*</span></label>
+        <div class="formInput">
+            <textarea id="Message" name="Message" class="messageInput" rows="10" maxlength="3000" required></textarea>
+        </div>
+        <div>
+            <button type="submit" id="contactBtn" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">SUBMIT</button>
+        </div>
     </section>
     <!-- end contact form -->
     <!-- begin disclaimer -->
     <section id="disclaimer">
       <h2 class="hidden">Disclaimer</h2>
-      <p>Disclaimer</p>
+      <p>Grolsch has partnered with Direct Energy to receive ECOLOGO Certified Renewable Energy Certificates.<br>
+      Enjoy responsibly. Must be legal drinking age.</p>
     </section>
     <!-- end disclaimer -->
     <!-- begin socials -->
     <section id="followUs">
       <h2 class="hidden">Social Media Links</h2>
-      <p id="follow">Follow Us</p>
+      <p>FOLLOW US</p>
+      <div id="socialIcons">
+        <a href="https://facebook.com/"><img src="images/facebookIcon.png" alt="Facebook logo."></a>
+        <a href="https://instagram.com/"><img src="images/instagramIcon.png" alt="Instagram logo."></a>
+        <a href="https://tiktok.com/"><img src="images/tiktokIcon.png" alt="TikTok logo."></a>
+        <a href="https://twitter.com/"><img src="images/twitterIcon.png" alt="Twitter logo."></a>
+        <a href="https://youtube.com/"><img src="images/youtubeIcon.png" alt="YouTube logo."></a>
+      </div>
     </section>
     <!-- end socials -->
     <!-- begin footer -->
-    <section id="mainFooter">
+    <section>
       <h2 class="hidden">Footer</h2>
-      <div id="footerLogo">
-        <p>Logo</p>
-      </div>
-      <div id="footerLinks">
-        <p>Links</p>
+      <div id="mainFooter">
+        <img src ="images/footerBackground.png" alt="Blue background with gradient dots.">
+        <div id="footerLogo">
+          <img src="images/grolschLogo.png" alt="Grolsch logo.">
+        </div>
+        <div id="footerLinks">
+          <ul>
+            <li>FAQ</li>
+            <li>TERMS & CONDITIONS</li>
+            <li>PRIVACY POLICY</li>
+            <li>SITE MAP</li>
+          </ul>
+        </div>
       </div>
     </section>
     <div id="copyright">
-      <p>Copyright</p>
+      <p>Please follow provincial and local guidelines to maintain a safe and responsible environment.</p>
     </div>
     <!-- end footer -->
   </div>
