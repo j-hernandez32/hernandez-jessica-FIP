@@ -151,7 +151,6 @@ Classes Starts
 .flavourOption {
   width: 17em;
   height: 30em;
-  background-color: #6F6F6F;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,7 +160,6 @@ Classes Starts
 .flavourOptionFirst {
   width: 17em;
   height: 30em;
-  background-color: #6F6F6F;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -667,28 +665,39 @@ IDs Starts
 
 #mouthwashTitle {
   height: 75px;
-  width: 1240px;
-  background-color: #CECECE;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
 }
 
+#mouthwashTitle p {
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  font-size: 2.5em;
+  color: #1B3D78;
+  letter-spacing: 10px;
+
+}
+
 #mouthwashSlogan {
   height: 45px;
-  width: 630px;
-  background-color: #CECECE;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
 }
 
+#mouthwashSlogan p {
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #BC2929;
+}
+
 #mainProdImg {
   width: 925px;
   height: 1050px;
-  background-color: #6F6F6F;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -698,7 +707,6 @@ IDs Starts
 #mainProdDesc {
   width: 925px;
   height: 315px;
-  background-color: #CECECE;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -706,10 +714,16 @@ IDs Starts
 
 #flavourTitle {
   height: 110px;
-  background-color: #CECECE;
+  background-color: #0084C9;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#flavourTitle p {
+  font-family: "arial_blackregular", Helvetica, sans-serif;
+  font-size: 2em;
+  color: #fff;
 }
 
 #flavourAssort {
